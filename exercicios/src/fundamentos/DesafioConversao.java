@@ -36,6 +36,7 @@ public class DesafioConversao {
 		
 		System.out.printf("O resultado da soma é %.2f e a média é %.2f", resultado, media);
 		
+		entrada.close();
 	}
 	
 	
