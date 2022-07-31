@@ -12,6 +12,10 @@ public class DesafioLogicos {
 		boolean comprarTv32 = trabalho1 ^ trabalho2;
 		boolean tomarSorvete = comprarTv50 || comprarTv32;
 		boolean ficarSaudavel = !tomarSorvete;
+		
+		// acho que um ternario fica mais legivel de ler
+		// boolean ficarSaudavel = tomarSorvete ? false : true;
+		
 		System.out.println("Comprar TV50 para familia? " + comprarTv50);
 		System.out.println("Comprar TV32 para familia? " + comprarTv32);
 		System.out.println("Tomar sorvete? " + tomarSorvete);
